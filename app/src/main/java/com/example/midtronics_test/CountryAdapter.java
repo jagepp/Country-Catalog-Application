@@ -17,7 +17,7 @@ public class CountryAdapter extends RecyclerView.Adapter<CountryAdapter.ViewHold
     ArrayList<String> countryList;
     public Resources res;
     Context context;
-    private RVClickListener rvListener;
+    private final RVClickListener rvListener;
 
 
     public CountryAdapter(Context context, ArrayList<String> nameList, RVClickListener listener) {
@@ -61,7 +61,7 @@ public class CountryAdapter extends RecyclerView.Adapter<CountryAdapter.ViewHold
 
         @Override
         public void onClick(View v) {
-            listener.onClick(getAdapterPosition());
+            listener.onClick(getBindingAdapterPosition());
         }
     }
 

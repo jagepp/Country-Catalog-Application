@@ -42,6 +42,11 @@ Platforms: Experience with Visual Studio, Eclipse, Arduino, MySQL Workbench, And
 Other: Experience with Agile and DevOps, Machine Learning, and Data Warehousing/ETL"</string>
     <string name="projects_info">"Android Cataloging Application:
 Project aims to catalog popular films with links to trailers, reviews, and director wikis. Application utilizes tools such as RecyclerView, Intents, ClickListeners, and Adapters. Built in Android Studio using Java"</string>
+    <string name="Capital">Capital:</string>
+    <string name="Population">Population:</string>
+    <string name="Area">Area:</string>
+    <string name="Region">Region:</string>
+    <string name="SubRegion">SubRegion:</string>
 
     <string-array name="countryNames">
         <item>Afghanistan</item>
